@@ -14,7 +14,7 @@ let my_data;
 let my_data2;
 
 const github_data = {
-    "token": "fe59c836297ccb8ecffcacc0061ca80204f2c4e1",
+    "token": "2f7c6177c816d9df6a70ee207b4743ffe7c50e42",
     "username": "miriam-samuels",
 };
 
