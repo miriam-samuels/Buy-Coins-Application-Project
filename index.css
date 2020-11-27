@@ -1,0 +1,312 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.menu_bar{
+    background-color: #000;
+    padding: 10px;
+    width: calc(100% - 20px);
+}
+.menu_icons .hidden_nav{
+    display: none;
+}
+.menu_icons .hidden_nav .nav{
+    display: inline;
+}
+.menu_icons .hidden_nav input{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.menu_icons .hidden_nav ul{
+    padding: 0;
+    list-style: none;
+}
+.menu_icons .hidden_nav ul li{
+    display: inline-block;
+    color: white;
+    margin: 5px;
+    text-align: center;
+}
+.menu_icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu_icons span{
+    display: block;
+    width: 33.33%;
+}
+.menu_icons span img{
+    width: 20px;
+}
+.menu_icons .logo img{
+    width: 35px;
+}
+.menu_icons .drop_down{
+    text-align: left;
+}
+.menu_icons .logo{
+    text-align: center;
+}
+.menu_icons .notification{
+    text-align: right;
+}
+.profile_details .profile_user .profile_pic img{
+    width: 50px;
+    border-radius: 50%;  
+}
+.profile_details .profile_user .profile_pic{
+    width: 30%;
+    text-align: center;
+}
+.profile_details .profile_user {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.profile_details .profile_user .name #name{
+    margin: 0;
+}
+.profile_details .profile_user .username #username{
+    margin: 0;
+    font-size: 18px;
+}
+.profile_details .profile_about .user_status{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 0 10px;
+    height: 35px;
+    width: calc(90% - 20px);
+    box-shadow:2px 2px 6px #D8D8D8;
+    border-radius: 5px;
+}
+.profile_details .profile_about .user_status #status_msg{
+    font-weight: 100;
+    font-size: 15px;
+    padding: 0 10px;
+}
+.profile_details .profile_about .user_bio #bio{
+    width: 85%;
+    margin: 20px auto;
+}
+.profile_details .profile_edit{
+    width: 90%;
+    display: block;
+    margin:10px auto;
+    padding: 8px 0;
+    border:transparent;
+    border-radius: 5px;
+    box-shadow:2px 2px 4px  #bebdbd;
+    background-color: #f1f1f1;
+    font-weight: 700;
+} 
+.profile_details .profile_interactions{
+    margin: 2em 0;
+}
+.profile_details .profile_interactions span{
+    text-align: center;
+    margin:0  10px;
+}
+.profile_details .profile_interactions span b{
+    margin:0  5px; 
+}
+#twitter_username{
+    display: none;
+}
+.user_repos .repos ul{
+    list-style: none;
+    padding: 0;
+    border-bottom: 1px solid #f3f3f3;
+}
+.user_repos .repos ul li{
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    padding: 10px 0;
+}
+.user_repos .repos ul li.repo_count{
+    border-bottom: 2px solid rgba(255, 0, 0, 0.427);
+}
+.search .search_input input{
+    display: block;
+    width: calc(90% - 14px);
+    padding: 7px;
+    margin: 20px auto;
+    border: transparent;
+    box-shadow: 1px 1px 5px 1px #dddcdc;
+}
+.search select{
+    background-color:#f3f3f3 ;
+    margin: 0 10px;
+    padding:7px;
+    border: transparent;
+    box-shadow: 1px 1px 2px  #dddcdc;
+}
+.search button{
+    background-color: rgb(37, 173, 37);
+    border: transparent;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+#repo_list{
+    border-top:  1px solid #f3f3f3;
+    border-bottom:  1px solid #f3f3f3;margin: 20px;
+    width: 100%;
+    margin: 20px 0;
+}
+#repo_list .repo{
+    border-bottom:  1px solid #f3f3f3;margin: 20px;
+    position: relative;
+    padding: 20px 0;
+}
+#repo_list .repo h3{
+    color: rgb(88, 88, 207);
+    font-size: 20px;
+    margin: 0 ;
+}
+#repo_list .repo p{
+    margin:10px 0 ;
+    width: 60%;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 100;
+    color: rgb(70, 70, 70);
+}
+#repo_list .repo button{
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    padding: 5px 10px;
+    border: transparent;
+    border-radius: 5px;
+    box-shadow:2px 2px 4px  #bebdbd;
+    background-color: #f1f1f1;
+    font-weight: 600;
+}
+#repo_list .repo .repo_color{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right:5px ;
+}
+#repo_list .repo .repo_language,#repo_list .repo .fork_count,#repo_list .repo .time_updated{
+    font-size: 13px;
+    margin-right: 10px;
+}
+#repo_list .repo .fork_count{
+    font-size: 13px;
+    margin-right: 10px; 
+}
+@media(min-width:500px){
+    .profile_details .profile_user .profile_pic img{
+        width: 105px;
+        border-radius: 50%;  
+    }
+    .profile_details .profile_interactions{
+        margin-left:2.5em ;
+    }
+}
+@media(min-width:768px){
+    .menu_icons .drop_down{
+        display: none;
+    }
+    .menu_icons .hidden_nav{
+        display: block;
+    }
+    .menu_icons .logo {
+        display: flex;
+        align-items: center;
+        width: 90%;
+    }
+    .body{
+        display: flex;
+    }
+    .profile_details .profile_user .profile_pic{
+        width: 45%;
+        text-align: left;
+    }
+    .body .profile_details{
+        width: 33%;
+        margin: 20px ;
+        position: relative;
+        height: fit-content;
+    }
+    .body .user_repos{
+        width: 66%;
+    }
+    .profile_details .profile_user .profile_pic{
+        width: 100%;
+        text-align: center;
+    }
+    .profile_details .profile_user .profile_pic img{
+        width: 210px;
+        border-radius: 50%;  
+    }
+    .profile_details .profile_user {
+        display: block;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .profile_details .profile_about .user_status{
+        width: 95%;
+        position:absolute;
+        top: 40%;
+        left: 70%;
+        background-color: white;
+        width: 20px;
+        border-radius: 20px;
+        z-index: 1;
+    }
+    .profile_details .profile_about .user_status #status_msg{
+        display: none;
+    }
+    .profile_details .profile_about .user_status:hover{
+        width: 163px;
+    }
+    .profile_details .profile_about .user_status:hover #status_msg{
+        display: block;
+    }
+    .profile_details .profile_about .user_bio #bio{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .profile_details .profile_edit{
+        width: 100%;
+    } 
+    .profile_details .profile_interactions{
+        margin-left:1em ;
+    }
+    .profile_details .profile_interactions span{
+        margin:0  2px;
+    }
+    .profile_details .profile_interactions span b{
+        margin:0  1px; 
+    }
+    .search .search_input input{
+        display: inline-block;
+        width: 30%;
+    }
+}
+@media(min-width:1024px){
+    .body .profile_details{
+        width: 30%;
+        margin: 20px ;
+    }
+    .body .user_repos{
+        width: 70%;
+    }
+    .profile_details .profile_user .profile_pic img{
+        width: 280px;
+        border-radius: 50%;  
+    }
+    .search .search_input input{
+        width: 46%;
+    } 
+}
