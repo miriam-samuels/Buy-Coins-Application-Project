@@ -295,6 +295,15 @@ body{
     }
 }
 @media(min-width:1024px){
+    .menu_icons .hidden_nav input{
+        margin: 0 20px;
+        width: 250px;
+    }
+    .menu_icons .logo {
+        display: flex;
+        align-items: center;
+        width: 70%;
+    }
     .body .profile_details{
         width: 30%;
         margin: 20px ;

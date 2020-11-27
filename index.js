@@ -14,7 +14,7 @@ let my_data;
 let my_data2;
 
 const github_data = {
-    "token": "2f7c6177c816d9df6a70ee207b4743ffe7c50e42",
+    "token": TOKEN,
     "username": "miriam-samuels",
 };
 
@@ -47,7 +47,7 @@ const repos = {
 const base_url = "https://api.github.com/graphql";
 const headers = {
     "Content-Type": "application/json",
-    Authorization: "bearer " + github_data["token"]
+    Authorization: "bearer " + github_data['token']
 }
 
 fetch(base_url, {
