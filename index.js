@@ -1,3 +1,4 @@
+import {Token} from './info.js'
 const profile_pic = document.getElementById('profile_pic');
 const my_name = document.getElementById('name');
 const username = document.getElementById('username');
@@ -14,7 +15,7 @@ let my_data;
 let my_data2;
 
 const github_data = {
-  "token": "MY_TOKEN_GOES_HERE",
+  "token": Token,
   "username": "miriam-samuels",
 };
 
